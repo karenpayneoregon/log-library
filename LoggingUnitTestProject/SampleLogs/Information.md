@@ -1,0 +1,1 @@
+﻿Folder containing sample logs produced by unit test methods.

@@ -1,0 +1,33 @@
+6/7/2021 10:59:48 AM Some value was null   at LoggingUnitTestProject.MainTest.NullException() in C:\OED\Dotnetland\VS2019\Misc\LogLibrary\LoggingUnitTestProject\Base\MainTest.cs:line 86
+   at LoggingUnitTestProject.MainTest.UnhandledException() in C:\OED\Dotnetland\VS2019\Misc\LogLibrary\LoggingUnitTestProject\MainTest.cs:line 20
+   at ServiceLogLibrary.Classes.ApplicationLog.WriteException(Exception exception, String text) in C:\OED\Dotnetland\VS2019\Misc\LogLibrary\ServiceLogLibrary\Classes\ApplicationLog.cs:line 38
+   at LoggingUnitTestProject.MainTest.UnhandledException() in C:\OED\Dotnetland\VS2019\Misc\LogLibrary\LoggingUnitTestProject\MainTest.cs:line 20
+Comment
+
+6/7/2021 10:59:48 AM Could not find file 'C:\OED\Dotnetland\VS2019\Misc\LogLibrary\LoggingUnitTestProject\bin\Debug\net5.0\Karen.txt'.   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.InternalReadAllLines(String path, Encoding encoding)
+   at System.IO.File.ReadAllLines(String path)
+   at LoggingUnitTestProject.MainTest.OpenNonExistingFile() in C:\OED\Dotnetland\VS2019\Misc\LogLibrary\LoggingUnitTestProject\Base\MainTest.cs:line 68
+   at LoggingUnitTestProject.MainTest.UnhandledException() in C:\OED\Dotnetland\VS2019\Misc\LogLibrary\LoggingUnitTestProject\MainTest.cs:line 30
+   at ServiceLogLibrary.Classes.ApplicationLog.WriteException(Exception exception, String text) in C:\OED\Dotnetland\VS2019\Misc\LogLibrary\ServiceLogLibrary\Classes\ApplicationLog.cs:line 38
+   at LoggingUnitTestProject.MainTest.UnhandledException() in C:\OED\Dotnetland\VS2019\Misc\LogLibrary\LoggingUnitTestProject\MainTest.cs:line 30
+Comment
+
+6/7/2021 10:59:48 AM Index was outside the bounds of the array.   at LoggingUnitTestProject.MainTest.OutOfRangeException() in C:\OED\Dotnetland\VS2019\Misc\LogLibrary\LoggingUnitTestProject\Base\MainTest.cs:line 78
+   at LoggingUnitTestProject.MainTest.UnhandledException() in C:\OED\Dotnetland\VS2019\Misc\LogLibrary\LoggingUnitTestProject\MainTest.cs:line 39
+   at ServiceLogLibrary.Classes.ApplicationLog.WriteException(Exception exception, String text) in C:\OED\Dotnetland\VS2019\Misc\LogLibrary\ServiceLogLibrary\Classes\ApplicationLog.cs:line 38
+   at LoggingUnitTestProject.MainTest.UnhandledException() in C:\OED\Dotnetland\VS2019\Misc\LogLibrary\LoggingUnitTestProject\MainTest.cs:line 39
+Comment
+
+6/7/2021 10:59:48 AM Test
+   at ServiceLogLibrary.Classes.ApplicationLog.WriteException(Exception exception, String text) in C:\OED\Dotnetland\VS2019\Misc\LogLibrary\ServiceLogLibrary\Classes\ApplicationLog.cs:line 38
+   at LoggingUnitTestProject.MainTest.UnhandledException() in C:\OED\Dotnetland\VS2019\Misc\LogLibrary\LoggingUnitTestProject\MainTest.cs:line 46
+Comment
+
+6/7/2021 10:59:48 AM Test
+   at ServiceLogLibrary.Classes.ApplicationLog.WriteException(Exception exception, String text) in C:\OED\Dotnetland\VS2019\Misc\LogLibrary\ServiceLogLibrary\Classes\ApplicationLog.cs:line 38
+   at LoggingUnitTestProject.MainTest.UnhandledException() in C:\OED\Dotnetland\VS2019\Misc\LogLibrary\LoggingUnitTestProject\MainTest.cs:line 47
